@@ -10,6 +10,12 @@ Aplikasi manajemen donasi berbasis web yang dibuat menggunakan **Nuxt.js** di si
 
 ---
 
+## 🔑 Akun Testing (Admin)
+* **Email**: admin@gmail.com
+* **Password**: password123
+
+---
+
 ## 🛠️ Tech Stack
 * **Frontend**: Nuxt.js 3, Tailwind CSS
 * **Backend**: Laravel 11 (REST API)
@@ -48,18 +54,3 @@ php artisan migrate --seed
 
 # Jalankan server lokal
 php artisan serve
-
-### 3. Setup Frontend (Nuxt.js)
-
-```bash
-# Masuk ke folder frontend
-cd frontend
-
-# Install dependencies
-npm install
-
-# Buat file .env di folder frontend dan isi API base URL:
-# NUXT_PUBLIC_API_BASE=http://localhost:8000/api
-
-# Jalankan server lokal
-npm run dev
