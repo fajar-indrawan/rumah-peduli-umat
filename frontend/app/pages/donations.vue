@@ -155,8 +155,8 @@ onMounted(() => {
         <thead class="bg-gray-50 border-b">
           <tr>
             <th class="p-3 font-semibold">Tanggal</th>
-            <th class="p-3 font-semibold">Donatur</th>
-            <th class="p-3 font-semibold">Jenis</th>
+            <th class="p-3 font-semibold">Nama Donatur</th>
+            <th class="p-3 font-semibold">Jenis Donasi</th>
             <th class="p-3 font-semibold">Nominal</th>
             <th class="p-3 font-semibold">Keterangan</th>
             <th class="p-3 font-semibold text-center">Aksi</th>

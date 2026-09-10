@@ -44,12 +44,12 @@ onMounted(() => {
       </div>
 
       <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-        <p class="text-sm font-semibold text-gray-500 uppercase">Total Transaksi</p>
+        <p class="text-sm font-semibold text-gray-500 uppercase">Total Transaksi Donasi</p>
         <p class="text-3xl font-bold text-gray-900 mt-2">{{ stats.total_transaksi }} Transaksi</p>
       </div>
 
       <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-        <p class="text-sm font-semibold text-gray-500 uppercase">Total Donasi Terkumpul</p>
+        <p class="text-sm font-semibold text-gray-500 uppercase">Total Nominal Donasi</p>
         <p class="text-3xl font-bold text-emerald-600 mt-2">
           Rp {{ Number(stats.total_nominal || 0).toLocaleString('id-ID') }}
         </p>

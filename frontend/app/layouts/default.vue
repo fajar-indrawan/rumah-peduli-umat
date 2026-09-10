@@ -36,7 +36,7 @@ onMounted(() => {
   <div class="min-h-screen bg-gray-50">
     <nav class="bg-indigo-600 text-white px-6 py-4 flex justify-between items-center shadow-md">
       <div class="flex items-center space-x-6">
-        <h1 class="text-xl font-bold">Rumah Peduli Umat</h1>
+        <h1 class="text-xl font-bold">RUMAH PEDULI UMAT</h1>
         <div v-if="token" class="space-x-4">
           <NuxtLink to="/" class="hover:text-indigo-200">Dashboard</NuxtLink>
           <NuxtLink to="/donors" class="hover:text-indigo-200">Data Donatur</NuxtLink>

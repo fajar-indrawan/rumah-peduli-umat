@@ -103,7 +103,9 @@ onMounted(() => {
           <label class="block text-sm font-medium mb-1">Telepon</label>
           <input 
             v-model="form.telepon" 
-            type="text" 
+            type="tel" 
+            inputmode="numeric"
+            @input="form.telepon = form.telepon.replace(/\D/g, '')"
             class="w-full border rounded px-3 py-2 text-sm"
             :class="{ 'border-red-500': errors.telepon }"
           />
