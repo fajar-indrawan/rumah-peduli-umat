@@ -54,3 +54,19 @@ php artisan migrate --seed
 
 # Jalankan server lokal
 php artisan serve
+
+3. Setup Frontend (Nuxt.js)
+Bash
+# Masuk ke folder frontend
+cd frontend
+
+# Install dependencies
+npm install
+
+# Buat file .env di folder frontend
+# NUXT_PUBLIC_API_BASE=http://localhost:8000/api
+
+# Jalankan server lokal
+npm run dev
+🗄️ Database
+File dump SQL alternatif tersedia di direktori utama: database.sql.
