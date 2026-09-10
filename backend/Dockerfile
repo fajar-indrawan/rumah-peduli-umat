@@ -12,6 +12,6 @@ WORKDIR /app
 COPY . .
 
 # Install dependensi Laravel
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 CMD php artisan serve --host=0.0.0.0 --port=$PORT
